@@ -1,0 +1,27 @@
+{
+  "name": "grocerylist-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/node": "^7.25.7",
+    "@babel/runtime": "^7.25.7",
+    "@hapi/boom": "^10.0.1",
+    "@hapi/hapi": "^19.2.0",
+    "mysql": "^2.18.1",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.7",
+    "@babel/plugin-transform-runtime": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "nodemon": "^3.1.7"
+  }
+}
